@@ -1,0 +1,103 @@
+/*第一部分*/
+
+/*-----*/
+.page-width{
+    width:1000px;
+    margin:0 auto;
+}
+.lj{
+    width:100%;
+    line-height: 45px;
+    border-bottom:1px solid #cfcfcf;
+    overflow:hidden;
+}
+.lj p{
+    float: left;
+    font-size:18px;
+    color: #0f88ca;
+    text-align:left;
+}
+.lj p em{
+    width:10px;
+    height:10px;
+    border-radius:30px;
+    background: #0f88ca;
+    float: left;
+    margin-right: 10px;
+    margin-top:16px;
+    overflow:hidden;
+}
+.lj p i{
+    color:#a9bbc4;
+    font-size: 14px;
+    font-style:normal;
+}
+.lj span{
+     float:right;
+      text-align:right;
+    }
+a{
+    color:#4d4d4d;
+    text-decoration:none;
+}
+a:hover{
+    color:#c41723;
+    text-decoration:none;
+}
+.container{
+    padding:0;
+}
+.cp1{
+    width:1000px;  
+}
+.cp3{
+    display:flex;
+}
+.cp1 img{
+    width:240px;height:240px;
+}
+.cp1>.cp3>div{
+    margin:0;
+    padding:0;
+    margin:0 5px;
+}
+.cp2{
+    display: flex;
+    justify-content: center;
+}
+/*分页& 面包屑*/
+.pagination{
+    margin:30px 0 20px;
+    clear:both;
+    font-size: 13px;
+}
+.pagination span,.pagination a{
+    display: inline-block;
+    padding:1px 13px;
+    height: 34px;
+    line-height:34px;
+    margin:0 1px;
+    color:#808080;
+}
+pagination a:hover{
+    background: #e5e5e5;
+    text-decoration:none;
+}
+pagination a:active{
+    color:#1191CE;
+}
+.pagination.disabled{
+    cursor:default;
+    color:#ccc;
+}
+.pagination .current{
+    background: #1191CE;
+    color:#fff;
+}
+.pagination-default{
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom:65px;
+}
+
+
